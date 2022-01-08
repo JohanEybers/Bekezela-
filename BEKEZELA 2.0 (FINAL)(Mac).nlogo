@@ -4,14 +4,13 @@
 ;;CREATED BY: Johan Eybers (JUNE 2021)
 
 ;; THINGS TO NOTE
+;; This is not a predicitve model but rather an educational one aimed at showing the utility of Agent-Based Models for pandemic modelling.
 ;; turtles = people
 ;; underscore used for variables and dash used for functions
 ;; inoculate while in a run: pause run. set inoculation percentage. write the word 'inoculate' in observer command box and press enter. Press model run again.
+;; Use more than 1000 and less than 100000 for initial population for best results.
+;; Running RSA experience simulates both the Beta and Delta variants only.
 
-;; TO DO
-;; make Setup RSA different to defualt parameters? (final hand-in for Mac and Windows versions, look at gui too)
-;; deaths when population under 1000 (fix before final hand-in)
-;; spread of virus + when not simulating SA without social distancing
 
 globals [                                                                          ;; declaration of global variables
 
